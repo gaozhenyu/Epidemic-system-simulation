@@ -1,0 +1,516 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+
+
+
+
+
+
+
+
+
+
+<font color="red">
+  
+</font>
+
+<html>
+<HEAD>
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="expires" content="0">
+
+
+<script language="javascript" src="/BIS/js/frameTag.js"></script>
+<script language="javascript" src="/BIS/js/popupDlg.js"></script>
+<script language="javascript" src="/BIS/js/formValidate.js"></script>
+<script language="javascript" src="/BIS/js/Common.js"></script>
+<script language="javascript" src="/BIS/disaster/scripts/disaster.js"></script>
+
+<TITLE>常住人口分年龄组管理</TITLE>
+
+</HEAD>
+
+<BODY >
+
+<form name="peopleageEditExcelForm" method="post" action="/BIS/serviceability/peopleageEditExcelAction.do">
+
+<div align=center>
+     <table style="width:100%" border="1" cellspacing="1" cellpadding="2" >
+         <COLGROUP>
+		    <COL align="left" style="width:10%">
+			<COL align="left" style="width:15%">
+			<COL align="left" style="width:10%">
+			<COL align="left" style="width:35%">
+			<COL align="left" style="width:20%">
+		 </COLGROUP>
+		 
+		 <tr>
+			<td  colspan="5"><font size=4>2014光明新区常住人口分年龄组管理</font></td>						
+		 </tr>
+		 	
+		</table>
+		<table style="width:100%" border="1" cellspacing="1" cellpadding="2" >
+		     <tr><td colspan="3"><b>来源于人口基本情况 &nbsp;</b></td></tr>	
+			 <tr>
+		       <td colspan="1" align="left" width="30%" >总人口:496225</td>
+		       <td colspan="1" align="right" width="35%">男性人口:278528</td>
+		       <td colspan="1" align="right" width="35%">女性人口:217697</td>
+		     </tr>   
+		
+		     <tr><td colspan="3"><b>本级合计 &nbsp;</b></td></tr>	
+			 <tr>
+		       <td colspan="1" align="left" width="30%" >总人口:496225</td>
+		       <td colspan="1" align="right" width="35%">男性人口:278528</td>
+		       <td colspan="1" align="right" width="35%">女性人口:217697</td>
+		     </tr> 
+	    <tr >
+           <td  colspan="3" style="text-align: center">
+			常住人口分年龄组管理</td>
+	     </tr>
+	     
+		<tr>	 		
+			<td colspan=3 align=center>
+       		<TABLE width="100%" border="1"  style="text-align: center" >
+       		        <COLGROUP>
+       		              <COL  style="width:16%">
+			              <COL  style="width:16%">
+       		              <COL  style="width:8%">
+			              <COL  style="width:8%">
+       		              <COL  style="width:8%">
+			              <COL  style="width:8%">
+       		              <COL  style="width:8%">
+			              <COL  style="width:8%">
+       		              <COL  style="width:8%">
+			              <COL  style="width:8%">
+       		            
+       		        </COLGROUP>           		
+           			
+           			<TR>
+           				<TD  align="center" nowrap>分年龄组</TD>
+           				<TD  align="center" nowrap>男性人口数</TD>
+           				<TD  align="center" nowrap>男性人口比例(%)</TD> 
+           				<TD  align="center" nowrap>女性人口数</TD>
+           				<TD  align="center" nowrap>女性人口比例(%)</TD>           				
+           			</TR>
+		
+	
+			  	 
+				 
+				<TR>
+<TD nowrap>0-</TD>
+<input type="hidden" name="c(BS_PEOPLEAGERPT).m(1).s(AGEID)" value="1"><td>
+2367
+</td>
+<td>
+0.48
+</td>
+<td>
+1934
+</td>
+<td>
+0.39
+</td>
+</TR>
+<TR>
+<TD nowrap>1-</TD>
+<input type="hidden" name="c(BS_PEOPLEAGERPT).m(2).s(AGEID)" value="2"><td>
+2025
+</td>
+<td>
+0.41
+</td>
+<td>
+1647
+</td>
+<td>
+0.33
+</td>
+</TR>
+<TR>
+<TD nowrap>2-</TD>
+<input type="hidden" name="c(BS_PEOPLEAGERPT).m(3).s(AGEID)" value="3"><td>
+2023
+</td>
+<td>
+0.41
+</td>
+<td>
+1522
+</td>
+<td>
+0.31
+</td>
+</TR>
+<TR>
+<TD nowrap>3-</TD>
+<input type="hidden" name="c(BS_PEOPLEAGERPT).m(4).s(AGEID)" value="4"><td>
+1726
+</td>
+<td>
+0.35
+</td>
+<td>
+1301
+</td>
+<td>
+0.26
+</td>
+</TR>
+<TR>
+<TD nowrap>4-</TD>
+<input type="hidden" name="c(BS_PEOPLEAGERPT).m(5).s(AGEID)" value="5"><td>
+1534
+</td>
+<td>
+0.31
+</td>
+<td>
+1158
+</td>
+<td>
+0.23
+</td>
+</TR>
+<TR>
+<TD nowrap>5-</TD>
+<input type="hidden" name="c(BS_PEOPLEAGERPT).m(6).s(AGEID)" value="6"><td>
+724
+</td>
+<td>
+0.15
+</td>
+<td>
+357
+</td>
+<td>
+0.07
+</td>
+</TR>
+<TR>
+<TD nowrap>6-</TD>
+<input type="hidden" name="c(BS_PEOPLEAGERPT).m(7).s(AGEID)" value="7"><td>
+583
+</td>
+<td>
+0.12
+</td>
+<td>
+309
+</td>
+<td>
+0.06
+</td>
+</TR>
+<TR>
+<TD nowrap>7-</TD>
+<input type="hidden" name="c(BS_PEOPLEAGERPT).m(8).s(AGEID)" value="8"><td>
+498
+</td>
+<td>
+0.10
+</td>
+<td>
+315
+</td>
+<td>
+0.06
+</td>
+</TR>
+<TR>
+<TD nowrap>8-</TD>
+<input type="hidden" name="c(BS_PEOPLEAGERPT).m(9).s(AGEID)" value="9"><td>
+1093
+</td>
+<td>
+0.22
+</td>
+<td>
+1245
+</td>
+<td>
+0.25
+</td>
+</TR>
+<TR>
+<TD nowrap>9-</TD>
+<input type="hidden" name="c(BS_PEOPLEAGERPT).m(10).s(AGEID)" value="10"><td>
+3860
+</td>
+<td>
+0.78
+</td>
+<td>
+2534
+</td>
+<td>
+0.51
+</td>
+</TR>
+<TR>
+<TD nowrap>10-</TD>
+<input type="hidden" name="c(BS_PEOPLEAGERPT).m(11).s(AGEID)" value="11"><td>
+5675
+</td>
+<td>
+1.14
+</td>
+<td>
+3817
+</td>
+<td>
+0.77
+</td>
+</TR>
+<TR>
+<TD nowrap>15-</TD>
+<input type="hidden" name="c(BS_PEOPLEAGERPT).m(12).s(AGEID)" value="12"><td>
+21337
+</td>
+<td>
+4.3
+</td>
+<td>
+21683
+</td>
+<td>
+4.37
+</td>
+</TR>
+<TR>
+<TD nowrap>20-</TD>
+<input type="hidden" name="c(BS_PEOPLEAGERPT).m(13).s(AGEID)" value="13"><td>
+64182
+</td>
+<td>
+12.93
+</td>
+<td>
+57408
+</td>
+<td>
+11.57
+</td>
+</TR>
+<TR>
+<TD nowrap>25-</TD>
+<input type="hidden" name="c(BS_PEOPLEAGERPT).m(14).s(AGEID)" value="14"><td>
+53844
+</td>
+<td>
+10.85
+</td>
+<td>
+39408
+</td>
+<td>
+7.94
+</td>
+</TR>
+<TR>
+<TD nowrap>30-</TD>
+<input type="hidden" name="c(BS_PEOPLEAGERPT).m(15).s(AGEID)" value="15"><td>
+36280
+</td>
+<td>
+7.31
+</td>
+<td>
+22622
+</td>
+<td>
+4.56
+</td>
+</TR>
+<TR>
+<TD nowrap>35-</TD>
+<input type="hidden" name="c(BS_PEOPLEAGERPT).m(16).s(AGEID)" value="16"><td>
+29204
+</td>
+<td>
+5.89
+</td>
+<td>
+20472
+</td>
+<td>
+4.13
+</td>
+</TR>
+<TR>
+<TD nowrap>40-</TD>
+<input type="hidden" name="c(BS_PEOPLEAGERPT).m(17).s(AGEID)" value="17"><td>
+22429
+</td>
+<td>
+4.52
+</td>
+<td>
+17212
+</td>
+<td>
+3.47
+</td>
+</TR>
+<TR>
+<TD nowrap>45-</TD>
+<input type="hidden" name="c(BS_PEOPLEAGERPT).m(18).s(AGEID)" value="18"><td>
+15024
+</td>
+<td>
+3.03
+</td>
+<td>
+10956
+</td>
+<td>
+2.21
+</td>
+</TR>
+<TR>
+<TD nowrap>50-</TD>
+<input type="hidden" name="c(BS_PEOPLEAGERPT).m(19).s(AGEID)" value="19"><td>
+5607
+</td>
+<td>
+1.13
+</td>
+<td>
+3965
+</td>
+<td>
+0.8
+</td>
+</TR>
+<TR>
+<TD nowrap>55-</TD>
+<input type="hidden" name="c(BS_PEOPLEAGERPT).m(20).s(AGEID)" value="20"><td>
+3884
+</td>
+<td>
+0.78
+</td>
+<td>
+3273
+</td>
+<td>
+0.66
+</td>
+</TR>
+<TR>
+<TD nowrap>60-</TD>
+<input type="hidden" name="c(BS_PEOPLEAGERPT).m(21).s(AGEID)" value="21"><td>
+2093
+</td>
+<td>
+0.42
+</td>
+<td>
+1870
+</td>
+<td>
+0.38
+</td>
+</TR>
+<TR>
+<TD nowrap>65-</TD>
+<input type="hidden" name="c(BS_PEOPLEAGERPT).m(22).s(AGEID)" value="22"><td>
+1034
+</td>
+<td>
+0.21
+</td>
+<td>
+973
+</td>
+<td>
+0.2
+</td>
+</TR>
+<TR>
+<TD nowrap>70-</TD>
+<input type="hidden" name="c(BS_PEOPLEAGERPT).m(23).s(AGEID)" value="23"><td>
+694
+</td>
+<td>
+0.14
+</td>
+<td>
+688
+</td>
+<td>
+0.14
+</td>
+</TR>
+<TR>
+<TD nowrap>75-</TD>
+<input type="hidden" name="c(BS_PEOPLEAGERPT).m(24).s(AGEID)" value="24"><td>
+420
+</td>
+<td>
+0.08
+</td>
+<td>
+489
+</td>
+<td>
+0.1
+</td>
+</TR>
+<TR>
+<TD nowrap>80-</TD>
+<input type="hidden" name="c(BS_PEOPLEAGERPT).m(25).s(AGEID)" value="25"><td>
+218
+</td>
+<td>
+0.04
+</td>
+<td>
+285
+</td>
+<td>
+0.06
+</td>
+</TR>
+<TR>
+<TD nowrap>85及以上</TD>
+<input type="hidden" name="c(BS_PEOPLEAGERPT).m(26).s(AGEID)" value="26"><td>
+170
+</td>
+<td>
+0.03
+</td>
+<td>
+254
+</td>
+<td>
+0.05
+</td>
+</TR>
+<TR>
+<TD nowrap>不详</TD>
+<input type="hidden" name="c(BS_PEOPLEAGERPT).m(27).s(AGEID)" value="27"><td>
+&nbsp;
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+&nbsp;
+</td>
+</TR>
+<input type="hidden" name="c(BS_PEOPLEAGERPT).KEYS" value="1||2||3||4||5||6||7||8||9||10||11||12||13||14||15||16||17||18||19||20||21||22||23||24||25||26||27">
+
+		
+			</table>	 		
+		</td>	 		
+	</tr> 		
+	</table>
+   
+ </div>
+</form>
+</body>
+</html>
